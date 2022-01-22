@@ -1,4 +1,4 @@
-package com.Louis.Games;
+package com.Games;
 
 public class Main {
 
