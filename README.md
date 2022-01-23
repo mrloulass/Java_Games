@@ -1,6 +1,27 @@
 # Java_Games
-- Basic games an user can play on the console.
+
+- Building basic games that an user can play on the console.
+
+## 🚀 Getting Started
+
+1. Fork repo [GitHub](https://github.com/mrloulass/Java_Games)
+2. Clone the repo 
 
 ## Number Guessing Game
 
-## More games
+- the system will pick a random number
+- user have a choice to pick a number from 1-100
+- multiple prompts for user to guess the number
+	- "correct"
+	- "wrong number high" or "wrong number low"
+
+## Imports
+
+- java.util.Random
+- java.util.Scanner
+
+## More games to come
+
+## Sources
+
+- [Java Tutorial with John](https://www.youtube.com/watch?v=j_ax_yT7KW0) 
