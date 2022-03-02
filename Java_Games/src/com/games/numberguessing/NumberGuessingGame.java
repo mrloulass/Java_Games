@@ -1,6 +1,8 @@
-package com.games;
+package com.games.numberguessing;
 
 import java.util.Random;
+
+import com.games.ScannerHelper;
 
 public class NumberGuessingGame {
 	
@@ -33,4 +35,6 @@ public class NumberGuessingGame {
 		}
 		
 	}
+
+	
 }
