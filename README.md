@@ -15,6 +15,12 @@
   - "correct"
   - "wrong number high" or "wrong number low"
 
+## Lottery Game
+
+## Rock, Paper & Scissor Game
+
+## Space Man
+
 ## More games to come
 
 ## Imports
