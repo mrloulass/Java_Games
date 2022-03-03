@@ -1,6 +1,7 @@
 package com.games.numberguessing;
 
 import java.util.Random;
+import java.util.Scanner;
 
 import com.games.ScannerHelper;
 
@@ -36,8 +37,10 @@ public class NumberGuessingGame {
 			}else{
 				System.out.println("Wrong number to high. Guess again.");
 			}
+			
 		}
-		
+		 
+	System.out.println("Play again. or Pick another game." );
 		
 	}
 
