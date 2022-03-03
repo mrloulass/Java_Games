@@ -16,16 +16,20 @@ public class NumberGuessingGame {
 		//test randomNumber
 		//System.out.println("Random number is: " + randomNumber);
 		
+		int countTries = 0;
+		
 		//while loop to keep the game going until the right number is guess
 		while(true) {
 			System.out.println("Please enter your guess (1-100): ");
 			
 			//3. bring in Scanner for user input
 			int playerGuess = ScannerHelper.ReadInputInt();
+			countTries++;
 			
 			//4. if...else statements to compare playerGuess and randomNumber
 			if(playerGuess == randomNumber) {
 				System.out.println("Correct! You Win!");
+				System.out.println("It took " + countTries + " tries.");
 				break;
 			}else if(randomNumber > playerGuess) {
 				System.out.println("Wrong number to low. Guess again.");
@@ -33,6 +37,7 @@ public class NumberGuessingGame {
 				System.out.println("Wrong number to high. Guess again.");
 			}
 		}
+		
 		
 	}
 
