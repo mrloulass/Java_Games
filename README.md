@@ -17,6 +17,8 @@
 
 ## Lottery Game
 
+- the system will pick a random numbers that range from 1 - 49 and the numbers does not repeat.
+
 ## Rock, Paper & Scissor Game
 
 ## Space Man
