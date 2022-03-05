@@ -2,6 +2,7 @@ package com.games.choose;
 
 import com.games.ScannerHelper;
 import com.games.numberguessing.*;
+import com.games.lottery.*;
 
 public class ChooseAGame {
 
@@ -17,17 +18,6 @@ public class ChooseAGame {
 		System.out.println(gameName);
 		}
 		
-//		while(true) {
-//		int playerChoice = ScannerHelper.ReadInputInt();
-//		
-//		if(playerChoice == 1) {
-//			System.out.println("Number Guessing Game");
-//			NumberGuessingGame guess = new NumberGuessingGame();
-//			guess.numberGuessingGame();
-//		}else {
-//			System.out.println("Please choose a game." );
-//		}
-//		}
 		while(true) {
 			
 		int playerChoice = ScannerHelper.ReadInputInt();
@@ -40,19 +30,20 @@ public class ChooseAGame {
 			break;
 		case 2:
 			System.out.println("Lottery Game");
-			//constructor and code
+			Lottery playLotto = new Lottery();
+			playLotto.lottery();
 			break;
 		case 3:
 			System.out.println("Rock,Papper & Scissor Game");
-			//constructor and code
+			//new object and code
 			break;
 		case 4:
 			System.out.println("Space Man");
-			//constructor and code
+			//new object and code
 			break;
 		case 5:
 			System.out.println("More Games to Come");
-			//constructor and code
+			//new object and code
 			break;
 		default:
 			System.out.println("Please choose a game to play:");

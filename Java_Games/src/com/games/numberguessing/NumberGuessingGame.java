@@ -1,8 +1,6 @@
 package com.games.numberguessing;
 
 import java.util.Random;
-import java.util.Scanner;
-
 import com.games.ScannerHelper;
 
 public class NumberGuessingGame {
