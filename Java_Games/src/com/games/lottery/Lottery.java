@@ -29,7 +29,7 @@ public class Lottery {
 			}
 		}
 		System.out.println(winningNumbers);
-		
+		//user enter six numbers
 		System.out.println("Please enter your six numbers between 1 and 49");
 		
 		List<Integer> guessedNumbers = new ArrayList<>();
