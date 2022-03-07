@@ -19,6 +19,7 @@
 
 - the system will pick six random numbers that range from 1 - 49 and the numbers does not repeat.
 - user will enter six numbers
+- more notes
 
 ## Rock, Paper & Scissor Game
 
