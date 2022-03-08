@@ -21,6 +21,7 @@
 - user will enter six numbers
 - more notes
 - notes
+- notes again
 
 ## Rock, Paper & Scissor Game
 
