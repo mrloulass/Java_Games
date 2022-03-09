@@ -45,6 +45,8 @@ public class Lottery {
 			else {
 				System.out.println(number + " is not bet");
 			}
+			// more test case
+			
 			}
 		}
 		
